@@ -1,0 +1,10 @@
+^C:\USERS\ADAMA\ONEDRIVE\DOKUMENTER\GITHUB\CMAKE_PRACTICE\STEP1\STEP1_BUILD\CMAKEFILES\17023FAF63A51D19001D5D9A883C620A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1 -BC:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1/Step1_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1/Step1_build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,3 +1,0 @@
-C:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1/Step1_build/CMakeFiles/Tutorial.dir
-C:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1/Step1_build/CMakeFiles/ALL_BUILD.dir
-C:/Users/adama/OneDrive/Dokumenter/GitHub/CMake_Practice/Step1/Step1_build/CMakeFiles/ZERO_CHECK.dir
